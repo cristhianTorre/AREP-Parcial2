@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="parcial2" />
+        <module name="AREP-Parcial2" />
       </profile>
     </annotationProcessing>
   </component>

@@ -19,8 +19,8 @@ public class Proxy {
     public static void main( String[] args )
     {
         semaforo=true;
-        urls.add("http://ec2-18-234-86-93.compute-1.amazonaws.com:4567/");
-        urls.add("http://pruebados.com");
+        urls.add("http://ec2-35-174-155-89.compute-1.amazonaws.com:4567/");
+        urls.add("http://ec2-184-72-206-201.compute-1.amazonaws.com:4567/");
         port(getPort());
 
         get("/cos","application/json",(req,res)->{
